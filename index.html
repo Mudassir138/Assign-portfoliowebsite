@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar section -->
+    <nav>
+        <h1 class="nav_head">Port<span>folio</span></h1>
+        <input type="checkbox" id="check" class="checkbox">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="#contact"><button class="contact_btn">Contact Me</button></a>
+        </ul>
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars" style="color: rgb(244, 242, 245);"></i>
+        </label>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <img src="profile pic.jpg" alt="Profile pic" class="profile-pic">
+        <div class="detail">
+            <h1>Hello I'm <br><span>Muddasar Mehmood</span></h1>
+            <h2>I'm a <span>Software Developer ...</span></h2>
+            <p>Passionate software developer dedicated to building innovative and efficient solutions that drive
+                measurable results. With a focus on creating scalable and user-centric applications, I thrive on solving
+                complex problems and continuously enhancing my skill set to stay ahead in the ever-evolving tech
+                landscape.</p>
+            <div class="socialMedia_Icon">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <button>About Me</button>
+        </div>
+    </section>
+    <section class="service" id="service">
+        <h1 class="head">Services</h1>
+
+        <div class="card">
+            <div class="service_card">
+                <i class="fa-solid fa-image" style="color: #ffffff;"></i>
+                <h2>Graphic Design</h2>
+                <p>Creating visually stunning designs that communicate ideas and inspire action. From logos to marketing
+                    materials, I bring creativity to life</p>
+                <a href="#">Read More...</a>
+            </div>
+
+            <div class="service_card">
+                <i class="fa-solid fa-computer" style="color: #ffffff;"></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing intuitive and engaging user interfaces with seamless experiences. I focus on aesthetics and
+                    functionality to enhance user satisfaction.</p>
+                <a href="#">Read More...</a>
+            </div>
+
+            <div class="service_card">
+                <i class="fa-solid fa-computer" style="color: #ffffff;"></i>
+                <h2>Web Developer</h2>
+                <p>Developing modern, responsive websites that are optimized for performance and user engagement. Let's
+                    bring your ideas to the web!</p>
+                <a href="#">Read More...</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1 class="port_section">Work</h1>
+        <div class="project">
+            <div class="port_card">
+                <img src="web_dev.png" alt="" width="200px" height="150px">
+                <div class="content">
+                    <h1>Web Development</h1>
+                    <p>Building dynamic, responsive, and user-friendly websites tailored to your vision. I ensure seamless functionality and an exceptional user experience</p>
+                </div>
+            </div>
+            <div class="port_card">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/0*LrWWTC_A9IV-ZMNX.png" alt="" width="200px" height="100px">
+                <div class="content">
+                    <h1>Android Design</h1>
+                    <p>Creating intuitive and engaging Android applications that provide a seamless user experience. I blend aesthetics with functionality for a polished finish</p>
+                </div>
+            </div>
+
+            <div class="port_card">
+                <img src="https://blog-frontend.envato.com/cdn-cgi/image/width=4800,quality=75,format=auto/uploads/sites/2/2022/05/graphic-design-tools.png" alt="" width="200px" height="100px">
+                <div class="content">
+                    <h1>Graphic Design</h1>
+                    <p>Crafting eye-catching visuals and designs that communicate your brand’s story effectively. Let’s turn your ideas into stunning visuals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="contact_section">Contact</h1>
+        <div class="contact_form">
+            <form action="#" method="POST">
+                <div class="form_group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form_group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form_group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="form_group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer_content">
+            <p>&copy; 2024 Your Portfolio Name. All rights reserved.</p>
+            <div class="social_links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>    
+
+</body>
+
+</html>
